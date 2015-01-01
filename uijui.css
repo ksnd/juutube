@@ -1,0 +1,82 @@
+body{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    background: #222;
+    text-align: center;
+    margin: 0px;
+    border-radius: 20px;
+    
+}
+#haku{
+    width: 100%;
+    position:fixed;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    /*background: rgba(0,0,0,0.5);*/
+}
+.vidio
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 20px;
+    transition: box-shadow 1s;
+}
+
+.vidio:active{
+    box-shadow: #6af 0px 0px 50px;
+    
+}
+.fader
+{
+    padding: 10px;
+    color: white !important;
+    text-shadow: black 1px 1px 2px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    transition: background 0.5s;
+}
+.fader:hover
+{
+    background: rgba(0,0,0,0);
+}
+#videot{
+    margin-left:60%;
+    padding: 10px;
+}
+
+#pleieri{
+    color: black;
+    background: white;
+    border-radius: 20px;
+    width:100%;
+    height: 100%;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 20px;
+}
+
+#perkele{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+a:active{
+    outline: none !important;
+}
+
+a:focus{    
+    outline: none !important;
+}
